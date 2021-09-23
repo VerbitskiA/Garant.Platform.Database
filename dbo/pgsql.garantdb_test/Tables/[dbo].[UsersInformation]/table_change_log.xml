@@ -15,5 +15,16 @@
 	           relativeToChangelogFile="true"
 	           stripComments="false"/>
   </changeSet>
+
+   <changeSet author=""
+            id="[dbo].[UsersInformation]_AddColumnsForSelectVariant.sql"
+            dbms="postgresql">
+
+    <sqlFile encoding="utf8"
+	           endDelimiter="\nGO"
+	           path="[dbo].[UsersInformation]_AddColumnsForSelectVariant.sql"
+	           relativeToChangelogFile="true"
+	           stripComments="false"/>
+  </changeSet>
  
 </databaseChangeLog>
