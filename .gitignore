@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+**/mssql.u0772479_test_barbuuudadb.properties
+**/pgsql.j1117558_test_barbuuudadb.properties
+**/mssql.u0772479_barbuuudadb.properties
+**/pgsql.j1117558_barbuuudadb.properties
+**/package-lock.json
