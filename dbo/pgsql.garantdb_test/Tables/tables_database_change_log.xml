@@ -9,5 +9,6 @@
   <include file="[dbo].[UsersInformation]/table_change_log.xml" relativeToChangelogFile="true"/>
   <include file="[dbo].[Logs]/table_change_log.xml" relativeToChangelogFile="true"/>
   <include file="[dbo].[Header]/table_change_log.xml" relativeToChangelogFile="true"/>
+  <include file="[dbo].[Footer]/table_change_log.xml" relativeToChangelogFile="true"/>
 	
 </databaseChangeLog>
