@@ -1,4 +1,3 @@
 alter table dbo."UsersInformation"
-add "VariantForWhatName" character varying not null default '',
-add "VariantForWhatCode" character varying not null default '',
-add "IsLater" boolean not null default false
+add if not exists "VariantForWhatName" character varying not null default '',
+add if not exists "VariantForWhatCode" character varying not null default '';
