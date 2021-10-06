@@ -16,8 +16,8 @@
 	           stripComments="false"/>
   </changeSet>
 
-  <changeSet author="Timoshenko A."
-            id="[dbo].[UsersInformation]_AddColumnsForSelectVariant.sql"
+  <changeSet author=""
+            id=""
             dbms="postgresql">
 
     <sqlFile encoding="utf8"
@@ -67,6 +67,28 @@
     <sqlFile encoding="utf8"
 	           endDelimiter="\nGO"
 	           path="[dbo].[UsersInformation]_RenameColumns_1.sql"
+	           relativeToChangelogFile="true"
+	           stripComments="false"/>
+  </changeSet>
+
+  <changeSet author=""
+            id="[dbo].[UsersInformation]_DropFK_1.sql"
+            dbms="postgresql">
+
+    <sqlFile encoding="utf8"
+	           endDelimiter="\nGO"
+	           path="[dbo].[UsersInformation]_DropFK_1.sql"
+	           relativeToChangelogFile="true"
+	           stripComments="false"/>
+  </changeSet>
+
+  <changeSet author=""
+            id="[dbo].[UsersInformation]_AddColumnUserId.sql"
+            dbms="postgresql">
+
+    <sqlFile encoding="utf8"
+	           endDelimiter="\nGO"
+	           path="[dbo].[UsersInformation]_AddColumnUserId.sql"
 	           relativeToChangelogFile="true"
 	           stripComments="false"/>
   </changeSet>

@@ -1,2 +1,2 @@
 alter table dbo."UsersInformation"
-rename column "Name" to "FirstName";
+rename column  "Name" to "FirstName";
