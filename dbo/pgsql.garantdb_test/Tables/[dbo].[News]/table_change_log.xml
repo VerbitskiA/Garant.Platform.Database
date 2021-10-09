@@ -6,12 +6,12 @@
     http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
 
   <changeSet author=""
-            id="[dbo].[Blogs]_CreateTable_1.sql"
+            id="[dbo].[News]_CreateTable_1.sql"
             dbms="postgresql">
 
     <sqlFile encoding="utf8"
 	           endDelimiter="\nGO"
-	           path="[dbo].[Blogs]_CreateTable.sql"
+	           path="[dbo].[News]_CreateTable.sql"
 	           relativeToChangelogFile="true"
 	           stripComments="false"/>
 
