@@ -12,5 +12,6 @@
   <include file="[dbo].[Footer]/table_change_log.xml" relativeToChangelogFile="true"/>
   <include file="[dbo].[BusinessCategories]/table_change_log.xml" relativeToChangelogFile="true"/>
   <include file="[dbo].[LastBuy]/table_change_log.xml" relativeToChangelogFile="true"/>
+  <include file="[dbo].[MainPageActions]/table_change_log.xml" relativeToChangelogFile="true"/>
 	
 </databaseChangeLog>

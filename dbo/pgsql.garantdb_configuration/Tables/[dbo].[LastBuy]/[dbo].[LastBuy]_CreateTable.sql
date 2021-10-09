@@ -1,4 +1,4 @@
-create table dbo."LastBuy" (
+create table if not exists dbo."LastBuy" (
     "Id" bigserial primary key,
     "Url" text null,
     "Name" varchar(200) not null,
