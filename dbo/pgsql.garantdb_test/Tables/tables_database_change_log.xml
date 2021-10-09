@@ -16,5 +16,6 @@
   <include file="[dbo].[Suggestions]/table_change_log.xml" relativeToChangelogFile="true"/>
   <include file="[dbo].[Franchises]/table_change_log.xml" relativeToChangelogFile="true"/>
   <include file="[dbo].[Ads]/table_change_log.xml" relativeToChangelogFile="true"/>
+  <include file="[dbo].[Blogs]/table_change_log.xml" relativeToChangelogFile="true"/>
 	
 </databaseChangeLog>
