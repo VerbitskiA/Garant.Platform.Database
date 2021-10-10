@@ -1,4 +1,4 @@
-create table if not exists "Franchises"."Franchises" (
+create table if not exists "Franchises"."PopularFranchises" (
     "FranchiseId" bigserial primary key,
     "Url" text null,
     "Title" varchar(200) not null,
