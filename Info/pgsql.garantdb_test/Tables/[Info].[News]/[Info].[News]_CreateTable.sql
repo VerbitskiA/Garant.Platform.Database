@@ -1,4 +1,4 @@
-create table if not exists dbo."News" (
+create table if not exists "Info"."News" (
     "NewsId" bigserial primary key,
     "Name" varchar(200) not null,
     "Url" text null,

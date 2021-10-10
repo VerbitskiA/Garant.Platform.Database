@@ -6,7 +6,7 @@
     http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
 
   <changeSet author=""
-            id="[dbo].[News]_CreateTable_1.sql"
+            id="[dbo].[News]_CreateTable_2.sql"
             dbms="postgresql">
 
     <sqlFile encoding="utf8"

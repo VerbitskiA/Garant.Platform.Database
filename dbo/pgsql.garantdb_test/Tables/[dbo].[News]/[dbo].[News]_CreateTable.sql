@@ -5,6 +5,6 @@ create table if not exists dbo."News" (
     "DateCreated" timestamp not null default now(),
     "IsToday" bool not null default false,
     "Type" varchar(100) not null,
-    "IsMarginBottom" bool not null default false,
+    "IsMarginTop" bool not null default false,
     "IsPaid" bool not null default false
 );
