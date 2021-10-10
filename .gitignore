@@ -3,8 +3,8 @@
 ################################################################################
 
 /.vs
-**/mssql.u0772479_test_barbuuudadb.properties
-**/pgsql.garantdb_test.properties
-**/mssql.u0772479_barbuuudadb.properties
 **/pgsql.garantdb_configuration.properties
+**/pgsql.garantdb_test.properties
 **/package-lock.json
+**/postgresql-42.2.22.jre7.jar
+**/mssql-jdbc-9.2.1.jre8.jar
