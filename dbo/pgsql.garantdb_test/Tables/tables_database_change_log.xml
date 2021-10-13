@@ -5,18 +5,8 @@
     xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd
     http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
 
-  <include file="[dbo].[Users]/table_change_log.xml" relativeToChangelogFile="true"/>
-  <include file="[dbo].[UsersInformation]/table_change_log.xml" relativeToChangelogFile="true"/>
-  <include file="[dbo].[Logs]/table_change_log.xml" relativeToChangelogFile="true"/>
   <include file="[dbo].[Header]/table_change_log.xml" relativeToChangelogFile="true"/>
   <include file="[dbo].[Footer]/table_change_log.xml" relativeToChangelogFile="true"/>
-  <include file="[dbo].[BusinessCategories]/table_change_log.xml" relativeToChangelogFile="true"/>
-  <include file="[dbo].[LastBuy]/table_change_log.xml" relativeToChangelogFile="true"/>
   <include file="[dbo].[MainPageActions]/table_change_log.xml" relativeToChangelogFile="true"/>
-  <include file="[dbo].[Suggestions]/table_change_log.xml" relativeToChangelogFile="true"/>
-  <include file="[dbo].[Franchises]/table_change_log.xml" relativeToChangelogFile="true"/>
-  <include file="[dbo].[Ads]/table_change_log.xml" relativeToChangelogFile="true"/>
-  <include file="[dbo].[Blogs]/table_change_log.xml" relativeToChangelogFile="true"/>
-  <include file="[dbo].[News]/table_change_log.xml" relativeToChangelogFile="true"/>
 	
 </databaseChangeLog>

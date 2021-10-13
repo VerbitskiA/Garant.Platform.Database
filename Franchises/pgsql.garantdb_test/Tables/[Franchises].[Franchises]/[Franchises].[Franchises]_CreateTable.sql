@@ -7,5 +7,7 @@ create table if not exists "Franchises"."Franchises" (
     "DateCreate" timestamp default now(),
     "TextDoPrice" varchar(100) not null,
     "CountDays" int default 0,
-    "DayDeclination" varchar(100) null
+    "DayDeclination" varchar(100) null,
+    "IsGarant" bool not null default false,
+    "ProfitPrice" numeric null
 );
