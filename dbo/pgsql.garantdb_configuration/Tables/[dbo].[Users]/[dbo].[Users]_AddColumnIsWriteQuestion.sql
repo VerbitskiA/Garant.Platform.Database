@@ -1,2 +1,2 @@
-alter table public."AspNetUsers"
+alter table dbo."Users"
 add "IsWriteQuestion" bool not null default false;
