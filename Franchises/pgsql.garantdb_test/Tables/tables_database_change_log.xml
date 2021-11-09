@@ -8,6 +8,6 @@
   <include file="[Franchises].[PopularFranchises]/table_change_log.xml" relativeToChangelogFile="true"/>
   <include file="[Franchises].[Franchises]/table_change_log.xml" relativeToChangelogFile="true"/>
   <include file="[Franchises].[TempFranchises]/table_change_log.xml" relativeToChangelogFile="true"/>
-  <include file="[Business].[Businesses]/table_change_log.xml" relativeToChangelogFile="true"/>
+  <include file="[Franchises].[FranchiseSubCategories]/table_change_log.xml" relativeToChangelogFile="true"/>
 	
 </databaseChangeLog>
