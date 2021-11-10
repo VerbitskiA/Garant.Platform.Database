@@ -30,5 +30,6 @@ create table if not exists "Business"."Businesses" (
     "DateCreate" timestamp not null default now(),
     "Category" varchar(300) not null default '',
     "SubCategory" varchar(300) not null default '',
-    "TextDoPrice" varchar(100) not null default ''
+    "TextDoPrice" varchar(100) not null default '',
+    "BusinessCity" varchar(200) not null default ''
 );
