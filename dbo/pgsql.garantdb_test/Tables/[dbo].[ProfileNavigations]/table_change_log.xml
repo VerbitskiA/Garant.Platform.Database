@@ -6,27 +6,15 @@
     http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
 
   <changeSet author=""
-            id="[Business].[Businesses]_CreateTable_3.sql"
+            id="[dbo].[ProfileNavigations]_CreateTable.sql"
             dbms="postgresql">
 
     <sqlFile encoding="utf8"
 	           endDelimiter="\nGO"
-	           path="[Business].[Businesses]_CreateTable.sql"
+	           path="[dbo].[ProfileNavigations]_CreateTable.sql"
 	           relativeToChangelogFile="true"
 	           stripComments="false"/>
 
   </changeSet>
-
-  <changeSet author=""
-            id="[Business].[TempBusinesses]_CreateTable.sql"
-            dbms="postgresql">
-
-    <sqlFile encoding="utf8"
-	           endDelimiter="\nGO"
-	           path="[Business].[TempBusinesses]_CreateTable.sql"
-	           relativeToChangelogFile="true"
-	           stripComments="false"/>
-
-  </changeSet>
-
+ 
 </databaseChangeLog>
