@@ -9,5 +9,6 @@
   <include file="[Business].[Businesses]/table_change_log.xml" relativeToChangelogFile="true"/>
   <include file="[Business].[BusinessSubCategories]/table_change_log.xml" relativeToChangelogFile="true"/>
   <include file="[Business].[BusinessCities]/table_change_log.xml" relativeToChangelogFile="true"/>
+  <include file="[Businesse].[RequestsBusinesses]/table_change_log.xml" relativeToChangelogFile="true"/>
 	
 </databaseChangeLog>
