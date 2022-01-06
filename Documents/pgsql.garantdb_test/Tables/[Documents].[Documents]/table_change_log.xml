@@ -17,7 +17,7 @@
   </changeSet>
 
   <changeSet author=""
-            id="[Documents].[Documents]_AlterTable_3.sql"
+            id="[Documents].[Documents]_AlterTable_5.sql"
             dbms="postgresql">
 
     <sqlFile encoding="utf8"
