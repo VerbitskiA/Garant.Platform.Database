@@ -16,13 +16,24 @@
 	           stripComments="false"/>
   </changeSet>
 
-    <changeSet author=""
+  <changeSet author=""
             id="[dbo].[Header]_AddColumnPosition.sql"
             dbms="postgresql">
 
     <sqlFile encoding="utf8"
 	           endDelimiter="\nGO"
 	           path="[dbo].[Header]_AddColumnPosition.sql"
+	           relativeToChangelogFile="true"
+	           stripComments="false"/>
+  </changeSet>
+
+  <changeSet author=""
+            id="[dbo].[Breadcrumbs]_CreateTable_1.sql"
+            dbms="postgresql">
+
+    <sqlFile encoding="utf8"
+	           endDelimiter="\nGO"
+	           path="[dbo].[Breadcrumbs]_CreateTable.sql"
 	           relativeToChangelogFile="true"
 	           stripComments="false"/>
   </changeSet>
