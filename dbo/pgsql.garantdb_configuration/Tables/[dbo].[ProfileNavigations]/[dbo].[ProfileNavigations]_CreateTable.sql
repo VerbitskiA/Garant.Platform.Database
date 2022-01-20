@@ -1,4 +1,4 @@
-create table if not exists dbo."ProfileNavigations" (
+create table dbo."ProfileNavigations" (
     "NavigationId" serial primary key,
     "NavigationText" varchar(200) not null,
     "NavigationLink" varchar(300) null,

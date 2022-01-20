@@ -1,4 +1,4 @@
-create table if not exists dbo."Breadcrumbs" (
+create table dbo."Breadcrumbs" (
     "BreadcrumbId" serial primary key,
     "Label" varchar(100) not null,
     "Url" varchar(400) not null,
