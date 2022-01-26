@@ -6,7 +6,7 @@
     http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
 
   <changeSet author=""
-            id="[dbo].[Header]_CreateTableHeader.sql"
+            id="[dbo].[Header]_CreateTableHeader_2.sql"
             dbms="postgresql">
 
     <sqlFile encoding="utf8"
@@ -16,13 +16,24 @@
 	           stripComments="false"/>
   </changeSet>
 
-    <changeSet author=""
+  <changeSet author=""
             id="[dbo].[Header]_AddColumnPosition.sql"
             dbms="postgresql">
 
     <sqlFile encoding="utf8"
 	           endDelimiter="\nGO"
 	           path="[dbo].[Header]_AddColumnPosition.sql"
+	           relativeToChangelogFile="true"
+	           stripComments="false"/>
+  </changeSet>
+
+  <changeSet author=""
+            id="[dbo].[Breadcrumbs]_CreateTable_2.sql"
+            dbms="postgresql">
+
+    <sqlFile encoding="utf8"
+	           endDelimiter="\nGO"
+	           path="[dbo].[Breadcrumbs]_CreateTable.sql"
 	           relativeToChangelogFile="true"
 	           stripComments="false"/>
   </changeSet>
