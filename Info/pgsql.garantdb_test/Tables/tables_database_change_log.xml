@@ -7,9 +7,9 @@
 
   <!--<include file="[Info].[UsersInformation]/table_change_log.xml" relativeToChangelogFile="true"/> -->
   <include file="[Info].[Suggestions]/table_change_log.xml" relativeToChangelogFile="true"/>
-  <include file="[Info].[Ads]/table_change_log.xml" relativeToChangelogFile="true"/>
-  <include file="[Info].[Blogs]/table_change_log.xml" relativeToChangelogFile="true"/>
+  <include file="[Info].[Ads]/table_change_log.xml" relativeToChangelogFile="true"/>  
   <include file="[Info].[News]/table_change_log.xml" relativeToChangelogFile="true"/>
   <include file="[Info].[BlogThemes]/table_change_log.xml" relativeToChangelogFile="true"/>
+  <include file="[Info].[Blogs]/table_change_log.xml" relativeToChangelogFile="true"/>
 	<include file="[Info].[Articles]/table_change_log.xml" relativeToChangelogFile="true"/>
 </databaseChangeLog>
