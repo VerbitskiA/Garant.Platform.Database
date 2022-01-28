@@ -7,5 +7,5 @@ create table if not exists "Info"."Articles" (
     "Text" text not null,
     "DateCreated" timestamp not null default now(),
     "Position" int not null default 0,
-    "ArticleCode" varchar(100) not null default ''
+    "ArticleCode" text not null default ''
 );
