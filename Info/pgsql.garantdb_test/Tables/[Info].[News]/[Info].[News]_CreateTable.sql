@@ -1,6 +1,7 @@
 create table if not exists "Info"."News" (
     "NewsId" bigserial primary key,
     "Name" varchar(200) not null,
+    "Text" text not null,
     "Url" text null,
     "DateCreated" timestamp not null default now(),
     "IsToday" bool not null default false,
