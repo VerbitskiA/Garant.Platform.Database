@@ -12,5 +12,6 @@
   <include file="[dbo].[ProfileNavigations]/table_change_log.xml" relativeToChangelogFile="true"/>
   <include file="[dbo].[ReturnUrl]/table_change_log.xml" relativeToChangelogFile="true"/>
   <include file="[dbo].[Controls]/table_change_log.xml" relativeToChangelogFile="true"/>
+  <include file="[dbo].[Employees]/table_change_log.xml" relativeToChangelogFile="true"/>
 	
 </databaseChangeLog>
