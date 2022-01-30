@@ -10,5 +10,6 @@ create table dbo."Employees" (
     "FullName" varchar(200) not null,
     "PhoneNumber" varchar(150) null,
     "Email" varchar(200) not null,
-    "TelegramTag" varchar(150) null
+    "TelegramTag" varchar(150) null,
+    "Password" varchar(200) not null
 );
