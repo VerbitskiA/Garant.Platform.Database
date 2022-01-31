@@ -12,4 +12,5 @@
   <include file="[Info].[BlogThemes]/table_change_log.xml" relativeToChangelogFile="true"/>
   <include file="[Info].[Blogs]/table_change_log.xml" relativeToChangelogFile="true"/>
 	<include file="[Info].[Articles]/table_change_log.xml" relativeToChangelogFile="true"/>
+  <include file="[Info].[ArticleThemes]/table_change_log.xml" relativeToChangelogFile="true"/>
 </databaseChangeLog>
