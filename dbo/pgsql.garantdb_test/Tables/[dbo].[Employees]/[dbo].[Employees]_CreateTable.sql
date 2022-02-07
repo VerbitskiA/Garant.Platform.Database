@@ -1,4 +1,4 @@
-create table dbo."Employees" (
+create table if not exists dbo."Employees" (
     "EmployeeId" bigserial primary key,
     "EmployeeRoleName" varchar(200) not null,
     "EmployeeRoleSystemName" varchar(300) not null,

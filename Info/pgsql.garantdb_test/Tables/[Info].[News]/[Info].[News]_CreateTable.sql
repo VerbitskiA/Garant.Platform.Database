@@ -5,6 +5,6 @@ create table if not exists "Info"."News" (
     "Url" text null,
     "DateCreated" timestamp not null default now(),
     "Type" varchar(100) not null,
-    "IsPaid" bool not null default false.
+    "IsPaid" bool not null default false,
     "Position" int not null default 0
 );

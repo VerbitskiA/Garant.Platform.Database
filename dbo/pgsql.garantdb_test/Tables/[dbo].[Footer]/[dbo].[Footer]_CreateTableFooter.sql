@@ -1,4 +1,4 @@
-create table dbo."Footer" (
+create table if not exists dbo."Footer" (
     "FooterId" serial primary key,
     "FooterTitle" character varying null,
     "FooterFieldName" character varying null,

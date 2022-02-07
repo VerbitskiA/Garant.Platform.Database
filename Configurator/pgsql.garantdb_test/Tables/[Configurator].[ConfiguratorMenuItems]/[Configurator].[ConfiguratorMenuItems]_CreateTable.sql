@@ -1,4 +1,4 @@
-create table "Configurator"."ConfiguratorMenuItems" (
+create table if not exists"Configurator"."ConfiguratorMenuItems" (
     "MenuItemId" int primary key,
     "MenuItemName" varchar(200) not null,
     "ActionName" varchar(250) not null,
