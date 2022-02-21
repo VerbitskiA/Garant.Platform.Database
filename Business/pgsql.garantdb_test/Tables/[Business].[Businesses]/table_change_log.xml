@@ -29,4 +29,16 @@
 
   </changeSet>
 
+   <changeSet author=""
+            id="[Business].[Businesses]_AlterTable_2.sql"
+            dbms="postgresql">
+
+    <sqlFile encoding="utf8"
+	           endDelimiter="\nGO"
+	           path="[Business].[Businesses]_AlterTable_1.sql"
+	           relativeToChangelogFile="true"
+	           stripComments="false"/>
+
+  </changeSet>
+
 </databaseChangeLog>
