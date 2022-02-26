@@ -1,1 +1,1 @@
-create schema "Configurator";
+create schema if not exists "Configurator";
