@@ -28,5 +28,32 @@
 	           stripComments="false"/>
 
   </changeSet>
+
+  <changeSet author=""
+            id="[Info].[Blogs]_AddColumns_2.sql"
+            dbms="postgresql">
+
+    <sqlFile encoding="utf8"
+	           endDelimiter="\nGO"
+	           path="[Info].[Blogs]_AddColumns_2.sql"
+	           relativeToChangelogFile="true"
+	           stripComments="false"/>
+
+  </changeSet>
+
+<changeSet author=""
+            id="[Info].[BlogsViews]_CreateTable.sql"
+            dbms="postgresql">
+
+    <sqlFile encoding="utf8"
+	           endDelimiter="\nGO"
+	           path="[Info].[BlogsViews]_CreateTable.sql"
+	           relativeToChangelogFile="true"
+	           stripComments="false"/>
+
+  </changeSet>
+
+
+
  
 </databaseChangeLog>

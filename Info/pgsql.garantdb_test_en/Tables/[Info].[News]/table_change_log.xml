@@ -18,7 +18,7 @@
   </changeSet>
 
   <changeSet author=""
-            id="[Info].[NewsViews]_CreateTable.sql"
+            id="[Info].[NewsViews]_CreateTable_1.sql"
             dbms="postgresql">
 
     <sqlFile encoding="utf8"

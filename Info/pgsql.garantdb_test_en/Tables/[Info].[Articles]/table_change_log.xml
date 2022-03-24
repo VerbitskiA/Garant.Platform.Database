@@ -16,5 +16,29 @@
 	           stripComments="false"/>
 
   </changeSet>
+
+  <changeSet author=""
+            id="[Info].[ArticlesViews]_CreateTable.sql"
+            dbms="postgresql">
+
+    <sqlFile encoding="utf8"
+	           endDelimiter="\nGO"
+	           path="[Info].[ArticlesViews]_CreateTable.sql"
+	           relativeToChangelogFile="true"
+	           stripComments="false"/>
+
+  </changeSet>
+
+  <changeSet author=""
+            id="[Info].[Articles]_AddColumns.sql"
+            dbms="postgresql">
+
+    <sqlFile encoding="utf8"
+	           endDelimiter="\nGO"
+	           path="[Info].[Articles]_AddColumns.sql"
+	           relativeToChangelogFile="true"
+	           stripComments="false"/>
+
+  </changeSet>
  
 </databaseChangeLog>
