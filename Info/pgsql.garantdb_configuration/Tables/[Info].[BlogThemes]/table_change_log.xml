@@ -6,54 +6,27 @@
     http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
 
   <changeSet author=""
-            id="[Info].[Blogs]_CreateTable_1.sql"
+            id="[Info].[BlogThemes]_CreateTable.sql"
             dbms="postgresql">
 
     <sqlFile encoding="utf8"
 	           endDelimiter="\nGO"
-	           path="[Info].[Blogs]_CreateTable.sql"
+	           path="[Info].[BlogThemes]_CreateTable.sql"
 	           relativeToChangelogFile="true"
 	           stripComments="false"/>
 
   </changeSet>
 
   <changeSet author=""
-            id="[Info].[Blogs]_AddColumns_1.sql"
+            id="[Info].[BlogThemes]_AddColumns_1.sql"
             dbms="postgresql">
 
     <sqlFile encoding="utf8"
 	           endDelimiter="\nGO"
-	           path="[Info].[Blogs]_AddColumns_1.sql"
+	           path="[Info].[BlogThemes]_AddColumns_1.sql"
 	           relativeToChangelogFile="true"
 	           stripComments="false"/>
 
   </changeSet>
-
-  <changeSet author=""
-            id="[Info].[Blogs]_AddColumns_2.sql"
-            dbms="postgresql">
-
-    <sqlFile encoding="utf8"
-	           endDelimiter="\nGO"
-	           path="[Info].[Blogs]_AddColumns_2.sql"
-	           relativeToChangelogFile="true"
-	           stripComments="false"/>
-
-  </changeSet>
-
-<changeSet author=""
-            id="[Info].[BlogsViews]_CreateTable.sql"
-            dbms="postgresql">
-
-    <sqlFile encoding="utf8"
-	           endDelimiter="\nGO"
-	           path="[Info].[BlogsViews]_CreateTable.sql"
-	           relativeToChangelogFile="true"
-	           stripComments="false"/>
-
-  </changeSet>
-
-
-
  
 </databaseChangeLog>
